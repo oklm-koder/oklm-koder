@@ -1,0 +1,68 @@
+body{
+
+    margin: 0%;
+
+}
+
+
+.navigation{
+
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    
+
+}
+nav{
+    display: flex;
+padding: 32px;
+width: 100%;
+justify-content: space-between;
+background-color: white;
+box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
+background-color: orange;
+
+
+}
+
+
+
+img{
+    
+}
+.premierpost{
+
+    
+}
+
+
+.projet_principal{
+    height: 500px;
+    width: 90%;
+    
+}
+.projet{
+
+    height: 150px;
+    width: 250px;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+video{
+
+    height:900px;
+    width: 50%;
+    
+}
+.logo_nav{
+
+    
+    height: 90px;
+   
+
+}
