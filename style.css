@@ -26,7 +26,19 @@ background-color: orange;
 }
 
 
+h1{
 
+    font-family: Tahoma,  Georgia, sans-serif;
+font-size: 39px;
+letter-spacing: 2px;
+word-spacing: 1.8px;
+color: #000000;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
 img{
     
 }
