@@ -222,7 +222,11 @@ ul{
     gap: 16px;;
 }
 
-
+footer{
+    display: flex;
+    align-items: center;
+    
+}
 
 
 
