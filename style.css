@@ -38,9 +38,8 @@ li :hover{
 
     transition: all .8s ease-in-out;
         
-    background-color: blue;   
-    transform: translateY(-10px);
-    height: auto;
+       
+    color: blue;
 }
 
 /*.nav_top{
@@ -54,9 +53,8 @@ nav{
     display: flex;
 padding: px;
 justify-content: space-between;
-background-color: white;
 box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
-background-color: orange;
+background-color: rgba(255, 166, 0, 0.705);
 position: sticky;top: 0;
 backdrop-filter:blur(45px);
 
