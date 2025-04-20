@@ -29,11 +29,11 @@ text-transform: uppercase;
 }
 
 
-/*li :hover{
+li :hover{
     transition: all .8s ease-in-out;
         
     background-color: blue;
-}*/
+}
 .bontton_nav:hover{
 
     transition: all .8s ease-in-out;
@@ -124,13 +124,23 @@ text-transform: uppercase;
 
 .projet_principal{
     
-    background-image: url(assets/img/erdtree2.jpg);
+    background-image: url(assets/img/erdtree.jpg);
+    background-size: cover;
+background-repeat: no-repeat;
     height: 500px;
     width:  100%;
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: stretch;
 }
+
+
+.erdtree{
+    visibility: hidden;
+    
+}
+    
+    
 
 
 .projet_container{
@@ -164,7 +174,7 @@ main{
     box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
     transition: all 1s ease-in-out;
     height: 25%;
-    width: 25%;
+    width: 30%;
     -moz-transform: translate(0px, -50px);
 -webkit-transform: translate(0px, -50px);
 -o-transform: translate(0px, -50px);
@@ -176,6 +186,8 @@ transform: translate(0px, -50px);
 
  
  }
+
+
  .carte img{
     width: 100%;
     height: 100%;
@@ -188,7 +200,7 @@ transform: translate(0px, -50px);
     font-family: sans-serif;
     text-transform: uppercase;
     gap: 5px;
-    border-radius: 100%;
+    border-radius: 10%;
     overflow: hidden;
     -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
     box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
@@ -202,11 +214,13 @@ transform: translate(0px, -50px);
 .container{
 display: flex;
 gap: 12px;
+justify-content: space-around
 
 }
-.reseau{
+#reseau{
     background-color: rgb(73, 154, 143);
     display: flex;
+    gap: 16px;
 }
 #bio{
     width: 50%;
@@ -227,7 +241,8 @@ footer{
     align-items: center;
     
 }
-
-
-
+.carte :hover{
+    transform: scale(1.1);
+    transition: all 60ms ease-in-out;
+}
 
