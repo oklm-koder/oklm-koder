@@ -32,7 +32,7 @@ text-transform: uppercase;
 li :hover{
     transition: all .8s ease-in-out;
         
-    background-color: blue;
+   color: #999897;
 }
 .bontton_nav:hover{
 
@@ -237,6 +237,7 @@ ul{
 footer{
     display: flex;
     align-items: center;
+    flex-direction: column;
     
 }
 .carte :hover{
